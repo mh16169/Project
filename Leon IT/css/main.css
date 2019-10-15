@@ -1,0 +1,220 @@
+body {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* global */
+.containar {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.button-1 {
+  height: 36px;
+  padding: 0 20px;
+  background: #e84118;
+  color: #ffffff;
+  border: 0;
+  min-width: 100px;
+}
+
+/* header */
+header {
+  background-color: #35424a;
+  color: #ffffff;
+  min-height: 70px;
+  padding-top: 30px;
+  border-bottom: #d35400 4px solid;
+}
+
+header #logo {
+  float: left;
+}
+
+header #logo h1 {
+  margin: 0;
+  font-size: 30px;
+}
+
+header nav {
+  float: right;
+  margin-top: 12px;
+}
+
+header ul li {
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+header .highlite, header .curent a {
+  color: #e84118;
+  font-weight: 900;
+}
+
+header ul li:hover a {
+  color: #9c88ff;
+  font-weight: 700;
+}
+
+/* showcase area */
+#showcase {
+  min-height: 400px;
+  background: url("../img/showcase.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+}
+
+#showcase h1 {
+  font-size: 55px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+#showcase p {
+  font-size: 20px;
+}
+
+#neweslettar {
+  color: #ffffff;
+  background: #35424a;
+  padding: 15px;
+}
+
+#neweslettar h1 {
+  float: left;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+#neweslettar form {
+  float: right;
+  margin-top: 18px;
+}
+
+#neweslettar input[type="email"] {
+  padding: 4px;
+  height: 25px;
+  font-size: 15px;
+  min-width: 250px;
+}
+
+/* sarviess page css start */
+#ser {
+  width: 65%;
+  float: left;
+}
+
+#ser ul li {
+  margin: 10px 0;
+  background: #E6E6E6;
+  padding: 20px;
+}
+
+#sid {
+  background: #35424A;
+  float: right;
+  margin: 10px;
+  width: 30%;
+  color: #ffffff;
+}
+
+.form {
+  padding: 20px;
+}
+
+.form input[type="text"],
+.form input[type="email"] {
+  width: 100%;
+  min-height: 30px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 4px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 50px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 4px;
+}
+
+/* sarviess page css end */
+/* about page css start */
+#aboutus {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-size: 15px;
+  text-align: justify;
+}
+
+#pragraf {
+  float: left;
+  width: 65%;
+}
+
+#sidebar {
+  float: right;
+  width: 30%;
+  padding: 20px;
+  background: #35424a;
+  color: #ffffff;
+}
+
+#pragraf .towp {
+  background: #35424a;
+  color: #ffffff;
+  padding: 15px;
+}
+
+/* about page css end */
+#box {
+  margin-top: 25px;
+}
+
+#box .boxes {
+  float: left;
+  width: 30%;
+  padding: 12px;
+  text-align: center;
+}
+
+#box .boxes img {
+  width: 90px;
+}
+
+footer {
+  padding: 8px;
+  background: #e84118;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+footer p {
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+}
