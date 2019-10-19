@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.showcase::after {
+  content: '';
+  width: 100%;
+  background: url("img/showcase.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: block;
+  transition: all 1s;
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+}
+
+.showcase:hover::after {
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+}
+
+.content {
+  position: absolute;
+  z-index: 1;
+  top: 20%;
+  left: 50%;
+  margin-right: 105px;
+  margin-left: -145px;
+  width: 350px;
+  height: 385px;
+  transition: all 1s ease;
+}
+
+.showcase:hover .content {
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+}
+
+.showcase img {
+  width: 310px;
+}
+
+.showcase .title {
+  font-size: 35px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.showcase .text {
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 4rem 1rem;
+}
+
+.grid-3 {
+  color: #ffffff;
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: repeat(3, auto);
+  text-align: center;
+  font-size: 18px;
+}
+
+.grid-3 h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.about .container {
+  width: 100%;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 50px 0;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: #333;
+}
+
+.centar {
+  text-align: center;
+  margin: auto;
+}
+
+.about-content h3 {
+  font-size: 30px;
+  text-align: left;
+}
+
+.about-content p {
+  text-align: left;
+  font-size: 20px;
+  width: 70%;
+}
+
+footer {
+  width: 100%;
+  background: black;
+  padding: 10px 0;
+}
+
+footer p {
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+}
+
+@media (max-width:560px) {
+  .showcase::after {
+    height: 50vh;
+  }
+
+  .content {
+    margin-left: -158px;
+    width: 332px;
+    margin-top: -27%;
+  }
+
+  .content .text {
+    display: none;
+  }
+
+  .grid-3 {
+    grid-template-columns: repeat(1, auto);
+  }
+
+  .grid-2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .about i {
+    margin-bottom: 30px;
+  }
+
+  .about-content h3,
+  .about-content p {
+    text-align: center;
+    margin: auto;
+  }
+}
