@@ -1,0 +1,25 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #efefef;
+}
+.skip{
+  color: red;
+  writing-mode: vertical-rl;
+text-orientation: mixed;
+width: 5%;
+margin: auto;
+padding: 0;
+display: inline;
+}
+main{
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+}
+img{
+  width: 500px;
+}
+footer{
+  text-align: center;
+}
