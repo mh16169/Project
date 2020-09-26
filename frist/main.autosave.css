@@ -1,0 +1,289 @@
+* {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  margin: 0;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 15px;
+}
+header {
+  background: #0d388a;
+  padding: 43px 0 15px 0;
+}
+header .container .row {
+  display: flex;
+  justify-content: space-between;
+}
+header .container .row nav ul li {
+  padding-right: 40px;
+  display: inline-block;
+}
+header .container .row nav ul li a {
+  text-transform: uppercase;
+  font-size: 14px;
+  text-decoration: none;
+  color: #ffff;
+  font-weight: 400;
+}
+header .container .row nav ul li:nth-child(8) {
+  padding-right: 28px;
+}
+header .container .row nav ul li:last-child {
+  padding-right: 0;
+}
+.slider-area {
+  background: #0e398c;
+  height: 645px;
+}
+.slider-area .container .row {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.slider-area .container .row .slider-content {
+  width: 645px;
+  padding-right: 45px;
+}
+.slider-area .container .row .slider-content h1 {
+  margin: 0;
+  color: #fff;
+}
+.slider-area .container .row .slider-content h1 span {
+  color: #f5ab35;
+}
+.slider-area .container .row .slider-content p {
+  font-weight: 300;
+  font-size: 14px;
+  color: #fff;
+  line-height: 26px;
+  padding: 35px 0 31px 0;
+  margin: 0;
+}
+.slider-area .container .row .slider-content .button {
+  color: #fff;
+  padding: 21px 53px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  background: #0f4192;
+}
+.event {
+  background: #fafafa;
+}
+.event .row {
+  display: flex;
+}
+.event .row .event-content-one {
+  width: 33.33%;
+  font-size: 30px;
+  color: #fff;
+  height: 215px;
+  background: #eb2358;
+  margin-top: -109px;
+  padding-bottom: 32px;
+}
+.event .row .event-content-one div {
+  padding: 120px 0 32px 40px;
+}
+.event .row .event-content-one div h2 {
+  margin: 0;
+  font-weight: bold;
+}
+.event .row .event-content-one div span {
+  font-weight: 300;
+}
+.event .row .event-content-tow {
+  width: 33.33%;
+  font-size: 30px;
+  color: #fff;
+  height: 215px;
+  background: #eb2358;
+  margin-top: -109px;
+  padding-bottom: 32px;
+  background: #e49419;
+}
+.event .row .event-content-tow div {
+  padding: 120px 0 32px 40px;
+}
+.event .row .event-content-tow div h2 {
+  margin: 0;
+  font-weight: bold;
+}
+.event .row .event-content-tow div span {
+  font-weight: 300;
+}
+.event .row .event-content-three {
+  width: 33.33%;
+  font-size: 30px;
+  color: #fff;
+  height: 215px;
+  background: #eb2358;
+  margin-top: -109px;
+  padding-bottom: 32px;
+  background: #4ad9d9;
+}
+.event .row .event-content-three div {
+  padding: 120px 0 32px 40px;
+}
+.event .row .event-content-three div h2 {
+  margin: 0;
+  font-weight: bold;
+}
+.event .row .event-content-three div span {
+  font-weight: 300;
+}
+.education-section {
+  background: #fafafa;
+}
+.education-section .row {
+  display: flex;
+  color: #818181;
+  padding: 73px 0;
+}
+.education-section .row .education-content-one {
+  width: 60%;
+  padding-right: 115px;
+}
+.education-section .row .education-content-one .talk {
+  font-size: 18px;
+  text-transform: capitalize;
+  padding-bottom: 25px;
+}
+.education-section .row .education-content-one h2 {
+  margin: 0;
+  color: #303030;
+  font-size: 33px;
+  font-weight: 700;
+  padding-bottom: 35px;
+}
+.education-section .row .education-content-one .main-pra {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 24px;
+  padding-bottom: 60px;
+}
+.education-section .row .education-content-one img {
+  padding-bottom: 15px;
+}
+.education-section .row .education-content-one .name {
+  font-size: 15px;
+  color: #303030;
+  padding-bottom: 10px;
+}
+.education-section .row .education-content-one .title {
+  font-size: 12px;
+  font-weight: 300;
+}
+.education-section .row .education-content-tow {
+  width: 40%;
+  display: flex;
+}
+.education-section .row .education-content-tow img {
+  width: 50%;
+  margin-right: 7px;
+  height: 370px;
+}
+.education-section .row .education-content-tow div {
+  width: 50%;
+}
+.education-section .row .education-content-tow div img {
+  width: 100%;
+  height: 180px;
+  margin-bottom: 7px;
+}
+.education-section .row .education-content-tow div img:last-child {
+  margin-bottom: 0;
+}
+.student-feture-section .row .student-feture-content {
+  text-align: center;
+  width: 650px;
+  margin: auto;
+}
+.student-feture-section .row .student-feture-content h3 {
+  font-size: 26px;
+  color: #303030;
+  text-transform: capitalize;
+  padding-bottom: 30px;
+}
+.student-feture-section .row .student-feture-content p {
+  font-size: 13px;
+  font-weight: 300;
+  color: #6a6a6a;
+  line-height: 25.5px;
+}
+.student-feture-section .row .student-feture-colam {
+  display: flex;
+  text-align: center;
+  padding-top: 65px;
+}
+.student-feture-section .row .student-feture-colam .col-1 {
+  padding: 0 26px;
+}
+.student-feture-section .row .student-feture-colam .col-1 h4 {
+  font-size: 22px;
+  color: #303030;
+  padding-top: 25px;
+}
+.student-feture-section .row .student-feture-colam .col-1 p {
+  font-size: 13px;
+  color: #6a6a6a;
+  line-height: 23px;
+  padding-top: 20px;
+}
+.student-feture-section .row .student-feture-colam .col-2 {
+  padding: 0 26px;
+}
+.student-feture-section .row .student-feture-colam .col-2 h4 {
+  font-size: 22px;
+  color: #303030;
+  padding-top: 25px;
+}
+.student-feture-section .row .student-feture-colam .col-2 p {
+  font-size: 13px;
+  color: #6a6a6a;
+  line-height: 23px;
+  padding-top: 20px;
+}
+.student-feture-section .row .student-feture-colam .col-3 {
+  padding: 0 26px;
+}
+.student-feture-section .row .student-feture-colam .col-3 h4 {
+  font-size: 22px;
+  color: #303030;
+  padding-top: 25px;
+}
+.student-feture-section .row .student-feture-colam .col-3 p {
+  font-size: 13px;
+  color: #6a6a6a;
+  line-height: 23px;
+  padding-top: 20px;
+}
+.student-feture-section .row .student-feture-colam .col-4 {
+  padding: 0 26px;
+}
+.student-feture-section .row .student-feture-colam .col-4 h4 {
+  font-size: 22px;
+  color: #303030;
+  padding-top: 25px;
+}
+.student-feture-section .row .student-feture-colam .col-4 p {
+  font-size: 13px;
+  color: #6a6a6a;
+  line-height: 23px;
+  padding-top: 20px;
+}
