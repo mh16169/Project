@@ -1,0 +1,662 @@
+// START HEADER
+header {
+    
+    .container {
+        .row {
+           
+
+            // TOP HEADER
+            .top-header {
+                
+                
+
+
+                .col-1 {
+                    
+
+                    p {
+                        
+                    }
+                }
+
+                .col-2 {
+                    
+
+                    p {
+                     
+                    }
+                }
+
+                .col-3 {
+                    a {
+                       
+
+                        i {
+                           
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// START NAVIGATION AREA
+.navigation-area {
+    // stky nav
+   
+    .container {
+
+        .row {
+            
+
+            // MAIN HEADER
+            .main-header {
+                
+
+                .logo {
+                    img {
+                        
+                    }
+                }
+
+                nav {
+                    
+
+                    ul {
+                        li {
+                           
+
+                            a {
+                              
+
+                                &:hover {
+                                    
+                                }
+
+                                i {}
+                            }
+
+                        }
+                    }
+                }
+
+                .button {
+                    a {}
+                }
+            }
+
+        }
+    }
+}
+// BANNER AREA
+.banner-area{
+    .container{
+        .row{
+            .banner-content{
+                .title{
+                    h1{}
+                }
+                .banner-text{
+                    p{}
+                }
+                .button{
+                    a{
+                        &:first-child{
+                        background:#1455a6;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// START FEATUARE AREA
+.featuare-area{
+    .container{
+        .row{
+            .featuare-content{
+                .col-1{
+                    img{
+
+                    }
+		.overlay{
+			 p{}
+		}
+                   
+                }
+                .col-2{
+                    .col-1;
+                }
+                .col-3{
+                    .col-1;
+                }
+            }
+        }
+    }
+}
+// START ABOUT COMPANY
+.about-company-area {
+    .container {
+        .row {
+            .about-company-content {
+                .col-1 {
+                    h2 {}
+
+                    p {
+                        br {}
+                    }
+                }
+                .col-2{
+                    img{}
+                }
+            }
+        }
+    }
+}
+// START ACHIVED AREA
+.achived-area{
+    .container{
+        .row{
+            .achived-content{
+                .col-1{
+                    h3{}
+                    span{}
+                }
+                .conl-2{
+                    .col-1;
+                }
+                .conl-3{
+                    .col-1;
+                }
+            }
+        }
+    }
+}
+// START OUR SERVICES
+.our-services-area {
+    .container {
+        .row {
+           
+
+            .our-services-content {
+                
+
+                .content-title {
+                    h3 {
+                        
+
+                        &::before {
+                           
+                        }
+
+                        &::after {
+                          
+                        }
+                    }
+                }
+
+                .content-body {
+                    
+
+                    .col-1 {
+                       
+
+                        .col-content-1 {
+                           
+
+                            &:last-child {
+                                
+                            }
+
+                            .col-content-img {
+                                
+
+                                img {
+                                    
+                                }
+                            }
+
+                            .col-content-text {
+                                h4 {
+                                   
+                                }
+
+                                p {
+                                    
+                                }
+                            }
+                        }
+
+                        .col-content-2 {
+                            .col-content-1;
+                        }
+
+                        .col-content-3 {
+                            .col-content-1;
+                        }
+                    }
+
+                    .col-2 {
+                        .col-1;
+                       
+                    }
+                }
+            }
+        }
+    }
+}
+// START WAY PEOPLE AREA
+.way-people-area{
+    .row{
+        .way-people-content{
+            .col-1{
+                
+                img{
+                   
+                }
+            }
+            .col-2{
+                
+                .way-people-title{
+                    h3{}
+                }
+                .way-people-text{
+                    .col-text-1{
+                        .way-people-icon{
+                            img{}
+                        }
+                        .way-pepole-icon-content{
+                            h4{}
+                            p{}
+                        }
+                    }
+                    .col-text-2{
+                        .col-text-1;
+                    }
+                    .col-text-3{
+                        .col-text-1;
+                    }
+
+                }
+            }
+        }
+    }
+}
+        }
+    }
+}
+// START ASKED QUESTION AREA
+.asked-question-area{
+    .container{
+        .row{
+            .asked-question-content{
+                .content-1{
+                    .content-title{
+                        h2{
+&:after{
+                        		
+                        	}
+                        	&:before{
+                        		
+                        	}}
+                    }
+                    .content-text{
+                        h4{
+                            a{}
+                        }
+                        p{}
+                    }
+                }
+                .content-2{
+                    .form-title{
+                         h2{
+                        	
+                        	&:after{
+                        		
+                        	}
+                        	&:before{
+                        		
+                        	}
+                        }
+                    }
+                    form{
+                        .input-section-1{
+                            input{}
+                        }
+                        .input-section-2{
+                            input{}
+                        }
+                        .input-section-3{
+                             select{
+                            	
+                            }
+                        }
+                        .input-section-4{
+                            input{}
+                        }
+                        .button{
+                            input{}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// SUPPORT AREA
+.support-area{
+   
+    .container{
+        .row{
+            .support-content{
+                .support-text{
+                h4{
+               
+                }
+                p{
+                  
+                }
+                }
+            }
+            .button{
+                a{}
+            }
+        }
+    }
+}
+// START LATEST WORK
+.latest-area{
+    .container{
+        .row{
+        	
+            .latest-element{
+                .latest-title{
+                    h2{
+                    	  &::after {
+                          
+                        }
+                        	&:before{
+                        		
+                        	}
+                    }
+                    .owl-menu{
+                        ul{
+                            li{
+                            	&:hover{
+                                    
+                                }
+                                &:last-child{
+                                
+                                }
+                            }
+                        }
+                    }
+                }
+                .latest-body{
+                    .latest-item-1{
+                    	
+                    	&:hover .overlay-tow{
+                           
+
+                        }
+                          &:hover p{
+                           
+
+                        }
+
+                        img{
+                        	
+                        }
+                        .overlay-tow{
+                            .plush{}
+                            p{}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// START TEAM MEMBER AREA
+.team-member {
+    .container {
+        .row {
+            padding: 0 15px;
+
+            .team-content {
+                padding: 0 0 102px 0;
+
+                .content-title {
+                    h2 {
+                        
+
+                        &::after {
+                         
+                        }
+
+                        &::before {
+                        
+                        }
+
+                    }
+                }
+
+                .content-eliment {
+                   
+
+                    .content-eliment-1 {
+                       
+
+                        img {
+                           
+
+                            &:last-child {
+                               
+                            }
+                        }
+
+                        h5 {
+                        
+                        }
+
+                        span {
+                         
+
+                        }
+
+                        p {
+                           
+                        }
+                    }
+
+                    .content-eliment-2 {
+                        .content-eliment-1;
+                    }
+
+                    .content-eliment-3 {
+                        .content-eliment-1;
+                    }
+
+                    .content-eliment-4 {
+                        .content-eliment-1;
+                    }
+                }
+            }
+        }
+    }
+}
+  // STAR TESTIMONIAL AREA
+.testimonial-area {
+
+    
+
+    .container-tow {
+     
+        .row {
+          
+            .fa-angle-left {
+            
+
+                &:hover {
+              
+                }
+            }
+
+            .fa-angle-right {
+       
+
+                &:hover {
+                   
+                }
+            }
+
+            .testimonial-content {
+              
+    
+
+                .main-content {
+
+                 
+
+                    .img {
+                      
+
+                        img {
+                         
+                        }
+                    }
+
+                    .title {
+                      
+
+                        h5 {
+                          
+                        }
+
+                        span {
+                        
+                        }
+                    }
+
+                    p {
+                     
+                    }
+
+                    .star-icon {
+                     
+                    }
+                }
+            }
+        }
+    }
+}
+// START LEATEST BOLG AREA
+.leatestBlog-area{
+    .container{
+        .row{
+            .leatestBlog-element{
+                .leatestBlog-element-title{
+                    h2{}
+                }
+                .leatestBlog-element-body{
+                    .leatestBlog-body-child-1{
+                        img{}
+h5{}
+                        .date-comment{
+                            span{}
+                        }
+                        p{}
+                        a{
+                            i{}
+                        }
+                    }
+                    .leatestBlog-body-child-2{
+                        .leatestBlog-body-child-1;
+                    }
+                    .leatestBlog-body-child-3{
+                        .leatestBlog-body-child-1;
+                    }
+                }
+            }
+        }
+    }
+// START FOOTER AREA
+footer{
+    .container{
+        .row{
+            .footer-content{
+                .top-footer{
+                    .top-footer-section-1{
+                        img{}
+                        p{}
+                        form{
+                            .input{
+                                input[type="email"]{
+                                }
+                                input[type="submit"]{
+                                }
+                                i{}
+                            }
+                        }
+                        .social-icon{
+                             ul{
+                                li{
+                                    a{
+                                        i
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .top-footer-section-2{
+                        h3{}
+                        .post-item-1{
+                            .post-img{
+                                img{}
+                            }
+                            .post-text{
+                                p {
+                                
+                            }
+
+                            span {
+                                
+                            }
+                            }
+                        }
+                        .post-item-2{
+                            .post-item-1;
+                        }
+                        .post-item-3{
+                            .post-item-1;
+                        }
+                    }
+                    .top-footer-section-3{
+                        h3{}
+                        ul{
+                            li{
+                                a{
+                                    i{}
+                                }
+                            }
+                        }
+                    }
+                    .top-footer-section-4{
+                        h3{}
+                        .location{
+                            iframe{}
+                        }
+                    }
+                }
+               
+            }
+        }
+    }
+}
+ .bottom-footer{
+                    p{
+                        i{}
+                    }
+                }
+
+}
