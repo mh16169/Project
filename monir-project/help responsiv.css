@@ -1,0 +1,375 @@
+    // START HEADER AREA
+    header {
+        .container-one {
+            .row {
+
+                .heder__logo {
+                    img {}
+                }
+
+                .header__menu {
+                    nav {
+
+                        ul {
+
+                            li {
+
+                                a {
+
+                                    &:hover {}
+                                }
+
+                                &:last-child {}
+                            }
+                        }
+                    }
+
+                    a {
+                        img {}
+                    }
+                }
+            }
+        }
+    }
+    }
+
+    // START SLIDER AREA
+    .slider-area {
+        .container-one {
+            .row {
+                .slider__content {
+                    .ti {
+                        img {}
+
+                        h1 {
+                            span {}
+                        }
+                    }
+
+                    .slider__sub {
+                        h5 {}
+                        p {}
+                    }
+                }
+
+            }
+        }
+    }
+
+    // END SLIDER AREA
+    // START MANEGMENT TOOLE
+    .manegment__toole {
+        .container-tow {
+            .row {
+                .manegment__part-one {
+                    .part-one__content {
+                        h2 {
+
+                            span {}
+                        }
+
+                        h3 {}
+
+                        h4 {}
+
+                        p {}
+
+                        span {}
+                    }
+                }
+
+                .manegment__part-tow {
+                    .part-tow__content {
+                        .part-tow__element-one {
+                            .sclaing {
+                                img {}
+
+                                h3 {}
+
+                                p {}
+                            }
+
+                            .crm {
+                                .sclaing;
+                            }
+                        }
+
+                        .part-tow__element-tow {
+                            .building {
+                                img {}
+
+                                h3 {}
+
+                                p {}
+                            }
+
+                            .best {
+                                .building;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // END MANEGMENT TOOLE
+    // START SERVISES TEAM ARE
+    .servises-team-area {
+
+        .container-one {
+            .row {
+                .servises-team-comtent {
+
+                    .servises {
+
+                        img {}
+
+                        .servises-one {
+
+                            h2 {
+
+
+                                &:after {}
+
+                                &:hover::after {}
+                            }
+
+                            .servises-one-text {
+                                h4 {}
+
+                                p {}
+                            }
+                        }
+
+                        .servises-tow {
+                            .servises-one;
+
+                        }
+
+                        .servises-three {
+                            .servises-one;
+
+                        }
+                    }
+
+                    .team {
+
+                        .part-one__content {
+                            h2 {}
+
+                            h3 {}
+
+                            h4 {}
+
+                            p {}
+
+                            .p-2 {}
+
+                            .take {
+
+
+                                &:after {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // START ACIVMENT AREA
+    .achivedMent-area {
+        background: #41516f;
+
+        .container-one {
+            .row {
+                .achived-content {
+                    .col-1 {
+                        h3 {}
+
+                        span {}
+                    }
+
+                }
+            }
+        }
+    }
+
+    // START FEATURES AREA
+    .features-area {
+        .container-three {
+            .row {
+                .features-content {
+                    .features-part-one {
+                        h2 {
+                            span {}
+
+                            p {}
+
+                            .fuse {}
+
+                            a {}
+                        }
+                    }
+
+                    .features-part-tow {
+                        .part-tow-one {
+                            .featured {
+                                .number {
+                                    span {}
+                                }
+
+                                .retured-sercices {
+                                    h3 {}
+
+                                    p {}
+                                }
+                            }
+                        }
+
+                        .part-tow-tow {
+                            .part-tow-one;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // START VIDEO AREA
+    .video-area {
+        .container-tow {
+            .row {
+                .video-content {
+                    .video__part-one {
+                        h2 {}
+
+                        h4 {}
+
+                        p {}
+
+                        .morbi {}
+
+                        a {}
+                    }
+
+                    .video__part-tow {
+                        .part-one-body {
+                            .c-1 {}
+
+                            .play {}
+
+                            .c-2 {}
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // START TEAM AREA
+    .team-area {
+        .container-three {
+            .row {
+                .team-title {
+                    h3 {
+                        span {}
+                    }
+
+                    p {}
+                }
+
+                .team-pro {
+                    .col-1 {
+                        img {}
+
+                        h6 {}
+
+                        .info {
+                            a {}
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // START NEWS LETTER AREA
+    .news-letter-area {
+        .container-one {
+            .row {
+                .news-letter-content {
+                    .part-one {
+                        h4 {}
+
+                        p {}
+                    }
+
+                    .part-tow {
+                        input {}
+
+                        img {}
+                    }
+                }
+            }
+        }
+    }
+
+    // END NEWS LETTER AREA
+
+
+
+
+    // START FOOTER AREA
+    footer {
+        .container-one {
+            .row {
+                .footer__item {
+                    .col_one {
+                        img {}
+
+                        p {}
+
+                        .sosial-icon {
+                            a {
+                                img {}
+                            }
+                        }
+                    }
+
+                    .col_tow {
+                        h3 {}
+
+                        ul {
+                            li {
+                                a {}
+                            }
+                        }
+                    }
+
+                    .col_three {
+                        h3 {}
+
+                        a {}
+
+                        .date {
+                            time {
+                                &:last-child {}
+                            }
+                        }
+
+                        .mail {
+                            a {
+                                &:last-child {}
+                            }
+                        }
+                    }
+                }
+
+                p {}
+            }
+        }
+
+    }
