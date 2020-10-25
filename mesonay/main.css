@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+marquee{
+	background: red;
+	border: 5px dotted white;
+}
+marquee h3{
+	color: #fff;
+
+}
+.button-group{
+	margin-bottom: 20px;
+}
+button {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: #fff;
+    background: yellowgreen;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+button:hover{
+    background:green;
+}
+.active{
+	background: red;
+}
+.prot-folio{
+	padding-top: 50px;
+}
+.prot-folio .container{
+	max-width: 1260px;
+	margin: 0 auto;
+}
+.prot-folio .container .row{
+
+	display: flex;
+	flex-wrap: wrap;
+	
+
+}
+
+.prot-folio .container .row .imge{
+    width: 33.33%;
+    padding: 10px;
+}
+.prot-folio .container .row .imge img{
+	width: 100%;
+
+
+}
